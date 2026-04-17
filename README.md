@@ -1,14 +1,6 @@
-<div align="center">
 
-```
-╔════════════════════════════════════════════════════════════╗
-║                                                            ║
-║        ☁️   S E R V E R L E S S   T O D O   A P I   ☁️    ║
-║                                                            ║
-║          No servers. No ops. Just ship and scale.          ║
-║                                                            ║
-╚════════════════════════════════════════════════════════════╝
-```
+☁️ Serverless ToDo API
+Ship tasks. Not servers.
 
 ### Built on AWS · Written in Python · Zero Infrastructure
 
@@ -168,23 +160,27 @@ curl -X DELETE https://d3oyezkjyi.execute-api.us-east-1.amazonaws.com/prod/todos
 <br/>
 
 ### 🔹 API Gateway — Route Configuration
-![API Gateway Configuration](screenshots/Screenshot 2026-04-16 232241.png)
+<img width="1902" height="424" alt="Screenshot 2026-04-16 232241" src="https://github.com/user-attachments/assets/f5c3c9ba-730b-44fc-bd63-75567fd22caa" />
 
 <br/>
 
 
 ### 🔹 API Gateway — Resource Structure
-![Resource Structure](screenshots/Screenshot 2026-04-16 224508.png)
+<img width="1911" height="837" alt="Screenshot 2026-04-16 224508" src="https://github.com/user-attachments/assets/26c3f140-712e-48bc-b622-5097d21063ba" />
 
 <br/>
 
 ### 🔹 Deployment Stage
-![Deployment Stage](screenshots/Screenshot 2026-04-16 224521.png)
+<img width="1888" height="859" alt="Screenshot 2026-04-16 224456" src="https://github.com/user-attachments/assets/59af8c3c-6f4b-4b5b-8c30-d57b321dff5c" />
+<img width="1764" height="786" alt="Screenshot 2026-04-16 223402" src="https://github.com/user-attachments/assets/8b14981e-124f-40e4-8c37-5360a59e3129" />
+
 
 <br/>
 
 ### 🔹 Live Testing in Postman
-![Postman Tests](screenshots/Screenshot 2026-04-17 152752.png)
+<img width="1342" height="947" alt="Screenshot 2026-04-17 152611" src="https://github.com/user-attachments/assets/31670b2c-69f2-44c4-bab6-ca4949ce4dbc" />
+<img width="1792" height="910" alt="Screenshot 2026-04-16 225004" src="https://github.com/user-attachments/assets/2f5790b8-0ee3-4607-bb28-14843c2861a2" />
+
 
 ---
 
