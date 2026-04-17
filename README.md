@@ -6,31 +6,25 @@ Ship tasks. Not servers.
 
 <br/>
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <div style="font-size:48px;">🌐</div>
-      <b>API Gateway</b><br>
-      <sub>HTTP Routes</sub>
-    </td>
-
-    <td align="center" style="font-size:24px;">→</td>
-
-    <td align="center">
-      <div style="font-size:48px;">⚙️</div>
-      <b>AWS Lambda</b><br>
-      <sub>Python Logic</sub>
-    </td>
-
-    <td align="center" style="font-size:24px;">→</td>
-
-    <td align="center">
-      <div style="font-size:48px;">🗄️</div>
-      <b>DynamoDB</b><br>
-      <sub>NoSQL Data</sub>
-    </td>
-  </tr>
-</table>
+<div style="display: flex; justify-content: center; align-items: center; gap: 24px; margin: 32px 0; flex-wrap: wrap;">
+  <div style="text-align: center;">
+    <div style="font-size: 48px; margin-bottom: 8px;">🌐</div>
+    <div style="font-weight: 600; font-size: 14px;">API Gateway</div>
+    <div style="font-size: 12px; color: #666; margin-top: 4px;">HTTP Routes</div>
+  </div>
+  <div style="font-size: 24px; color: #999;">→</div>
+  <div style="text-align: center;">
+    <div style="font-size: 48px; margin-bottom: 8px;">⚙️</div>
+    <div style="font-weight: 600; font-size: 14px;">AWS Lambda</div>
+    <div style="font-size: 12px; color: #666; margin-top: 4px;">Python Logic</div>
+  </div>
+  <div style="font-size: 24px; color: #999;">→</div>
+  <div style="text-align: center;">
+    <div style="font-size: 48px; margin-bottom: 8px;">🗄️</div>
+    <div style="font-weight: 600; font-size: 14px;">DynamoDB</div>
+    <div style="font-size: 12px; color: #666; margin-top: 4px;">NoSQL Data</div>
+  </div>
+</div>
 
 
 <br/>
