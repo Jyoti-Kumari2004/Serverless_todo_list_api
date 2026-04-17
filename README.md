@@ -14,29 +14,26 @@
 
 <br/>
 
-<!-- ───────── AWS SERVICE ICONS ───────── -->
+<div style="display: flex; justify-content: center; align-items: center; gap: 24px; margin: 32px 0; flex-wrap: wrap;">
+  <div style="text-align: center;">
+    <div style="font-size: 48px; margin-bottom: 8px;">🌐</div>
+    <div style="font-weight: 600; font-size: 14px;">API Gateway</div>
+    <div style="font-size: 12px; color: #666; margin-top: 4px;">HTTP Routes</div>
+  </div>
+  <div style="font-size: 24px; color: #999;">→</div>
+  <div style="text-align: center;">
+    <div style="font-size: 48px; margin-bottom: 8px;">⚙️</div>
+    <div style="font-weight: 600; font-size: 14px;">AWS Lambda</div>
+    <div style="font-size: 12px; color: #666; margin-top: 4px;">Python Logic</div>
+  </div>
+  <div style="font-size: 24px; color: #999;">→</div>
+  <div style="text-align: center;">
+    <div style="font-size: 48px; margin-bottom: 8px;">🗄️</div>
+    <div style="font-weight: 600; font-size: 14px;">DynamoDB</div>
+    <div style="font-size: 12px; color: #666; margin-top: 4px;">NoSQL Data</div>
+  </div>
+</div>
 
-<table>
-<tr>
-<td align="center" width="160">
-<img src="https://img.icons8.com/color/64/amazon-api-gateway.png" width="52"/><br/>
-<sub><b>API Gateway</b></sub><br/>
-<sub>HTTP Routing</sub>
-</td>
-<td align="center" width="40"><sub>──────►</sub></td>
-<td align="center" width="160">
-<img src="https://img.icons8.com/color/64/aws-lambda.png" width="52"/><br/>
-<sub><b>AWS Lambda</b></sub><br/>
-<sub>Python Logic</sub>
-</td>
-<td align="center" width="40"><sub>──────►</sub></td>
-<td align="center" width="160">
-<img src="https://img.icons8.com/color/64/amazon-dynamodb.png" width="52"/><br/>
-<sub><b>DynamoDB</b></sub><br/>
-<sub>NoSQL Storage</sub>
-</td>
-</tr>
-</table>
 
 <br/>
 
@@ -171,24 +168,23 @@ curl -X DELETE https://d3oyezkjyi.execute-api.us-east-1.amazonaws.com/prod/todos
 <br/>
 
 ### 🔹 API Gateway — Route Configuration
-![API Gateway Configuration](<img width="1902" height="424" alt="Screenshot 2026-04-16 232241" src="https://github.com/user-attachments/assets/f36d97e6-3a5a-4c2c-b6c5-07029c947c1a" />
-)
+![API Gateway Configuration](screenshots/Screenshot 2026-04-16 232241.png)
 
 <br/>
 
 
 ### 🔹 API Gateway — Resource Structure
-![Resource Structure](screenshots/api-gateway-resources.png)
+![Resource Structure](screenshots/Screenshot 2026-04-16 224508.png)
 
 <br/>
 
 ### 🔹 Deployment Stage
-![Deployment Stage](screenshots/deployment-stage.png)
+![Deployment Stage](screenshots/Screenshot 2026-04-16 224521.png)
 
 <br/>
 
 ### 🔹 Live Testing in Postman
-![Postman Tests](screenshots/postman-tests.png)
+![Postman Tests](screenshots/Screenshot 2026-04-17 152752.png)
 
 ---
 
